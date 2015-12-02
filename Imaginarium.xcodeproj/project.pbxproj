@@ -13,6 +13,7 @@
 		08DFA4A41C0F1CED000C6775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DFA4A21C0F1CED000C6775 /* Main.storyboard */; };
 		08DFA4A61C0F1CED000C6775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DFA4A51C0F1CED000C6775 /* Assets.xcassets */; };
 		08DFA4A91C0F1CED000C6775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DFA4A71C0F1CED000C6775 /* LaunchScreen.storyboard */; };
+		08DFA4B21C0F1D31000C6775 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFA4B11C0F1D31000C6775 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		08DFA4A51C0F1CED000C6775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08DFA4A81C0F1CED000C6775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08DFA4AA1C0F1CED000C6775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DFA4B01C0F1D31000C6775 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		08DFA4B11C0F1D31000C6775 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,8 @@
 		08DFA4981C0F1CED000C6775 /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				08DFA49C1C0F1CED000C6775 /* AppDelegate.h */,
-				08DFA49D1C0F1CED000C6775 /* AppDelegate.m */,
+				08DFA4B01C0F1D31000C6775 /* ImageViewController.h */,
+				08DFA4B11C0F1D31000C6775 /* ImageViewController.m */,
 				08DFA49F1C0F1CED000C6775 /* ViewController.h */,
 				08DFA4A01C0F1CED000C6775 /* ViewController.m */,
 				08DFA4A21C0F1CED000C6775 /* Main.storyboard */,
@@ -74,6 +77,8 @@
 		08DFA4991C0F1CED000C6775 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08DFA49C1C0F1CED000C6775 /* AppDelegate.h */,
+				08DFA49D1C0F1CED000C6775 /* AppDelegate.m */,
 				08DFA49A1C0F1CED000C6775 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,6 +156,7 @@
 			files = (
 				08DFA4A11C0F1CED000C6775 /* ViewController.m in Sources */,
 				08DFA49E1C0F1CED000C6775 /* AppDelegate.m in Sources */,
+				08DFA4B21C0F1D31000C6775 /* ImageViewController.m in Sources */,
 				08DFA49B1C0F1CED000C6775 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
